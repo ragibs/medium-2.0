@@ -1,27 +1,38 @@
-# Next.js + Tailwind CSS Example
+# Medium 2.0
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This project was a created using Next.js, Tailwind CSS and backed by Sanity CMS. Medium 2.0 is a blogging app which includes functionilities such as
+- Adding new blog posts
+- Adding new comments
+- Approving new comments
+- Adding new users 
 
-## Deploy your own
+## Tech Stack
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+![Logo](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Logo](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Logo](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Logo](https://user-images.githubusercontent.com/108539627/198909461-532a53bc-720b-471c-b2a7-02c8b8c80366.svg)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-## How to use
+## Live Demo Link 
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+https://medium-2-beta.vercel.app/
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Screenshots
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+### Mobile
+![localhost_3000_](https://user-images.githubusercontent.com/108539627/198909644-fdecb82d-a90c-4b23-9228-6ad4326eaf11.png)
+![localhost_3000_post_milan-seal-first-serie-a-title-in-11-years (1)](https://user-images.githubusercontent.com/108539627/198909650-1870a4c4-c4ba-4791-9c51-f8c7dba341bf.png)
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### Desktop
+![localhost_3000_ (1)](https://user-images.githubusercontent.com/108539627/198909657-0184620b-4938-4184-9daa-89958c320861.png)
+![localhost_3000_post_milan-seal-first-serie-a-title-in-11-years](https://user-images.githubusercontent.com/108539627/198909664-7235c00c-cb79-4e89-8d3b-1f81b6253633.png)
+
+
+
+## Link to access Sanity Studio
+
+https://mediumbyrgb.sanity.studio/
+
+
