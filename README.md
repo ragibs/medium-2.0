@@ -11,7 +11,7 @@ This project was a created using Next.js, Tailwind CSS and backed by Sanity CMS.
 ![Logo](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Logo](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Logo](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Logo](https://worldvectorlogo.com/logo/sanity)
+![Logo](https://user-images.githubusercontent.com/108539627/198909461-532a53bc-720b-471c-b2a7-02c8b8c80366.svg)
 
 
 ## Live Demo Link 
@@ -21,8 +21,15 @@ https://medium-2-beta.vercel.app/
 ## Screenshots
 
 ### Mobile
+![localhost_3000_](https://user-images.githubusercontent.com/108539627/198909644-fdecb82d-a90c-4b23-9228-6ad4326eaf11.png)
+![localhost_3000_post_milan-seal-first-serie-a-title-in-11-years (1)](https://user-images.githubusercontent.com/108539627/198909650-1870a4c4-c4ba-4791-9c51-f8c7dba341bf.png)
+
 
 ### Desktop
+![localhost_3000_ (1)](https://user-images.githubusercontent.com/108539627/198909657-0184620b-4938-4184-9daa-89958c320861.png)
+![localhost_3000_post_milan-seal-first-serie-a-title-in-11-years](https://user-images.githubusercontent.com/108539627/198909664-7235c00c-cb79-4e89-8d3b-1f81b6253633.png)
+
+
 
 ## Link to access Sanity Studio
 
