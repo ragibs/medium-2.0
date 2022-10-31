@@ -51,7 +51,7 @@ export function Home({ posts }: Props) {
 }
 
 export const getServerSideProps = async () => {
-  const query = `*[_type =="post"]{
+  const query = `*[_type =="post"] | order(_createdAt desc){
   _id,
   title,
   author ->{

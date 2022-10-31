@@ -225,7 +225,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 'comments':*[
     _type == "comment" &&
     post._ref == ^._id &&
-    approved == true],
+    approved == true] | order(_createdAt asc),
 description,
 mainImage,
 slug,
