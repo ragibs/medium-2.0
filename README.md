@@ -1,27 +1,31 @@
-# Next.js + Tailwind CSS Example
+# Medium 2.0
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This project was a created using Next.js, Tailwind CSS and backed by Sanity CMS. Medium 2.0 is a bloggin app which includes functionilities such as
+- Adding new blog posts
+- Adding new comments
+- Approving new comments
+- Adding new users 
 
-## Deploy your own
+## Tech Stack
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+![Logo](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Logo](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Logo](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Logo](https://worldvectorlogo.com/logo/sanity)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-## How to use
+## Live Demo Link 
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+https://medium-2-beta.vercel.app/
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Screenshots
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+### Mobile
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+### Desktop
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Link to access Sanity Studio
+
+https://mediumbyrgb.sanity.studio/
+
+
