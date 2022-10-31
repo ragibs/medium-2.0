@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# ignore anything from sanity
+medium-20/node_modules
+
 # testing
 /coverage
 

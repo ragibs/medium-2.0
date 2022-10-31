@@ -17,7 +17,6 @@ interface IFormInput {
 }
 
 function Post({ post }: Props) {
-  console.log(post);
   const [submitted, setSubmitted] = useState(false);
   const {
     register,
@@ -31,7 +30,6 @@ function Post({ post }: Props) {
       body: JSON.stringify(data),
     })
       .then(() => {
-        console.log(data);
         setSubmitted(true);
       })
       .catch((err) => {
@@ -70,7 +68,7 @@ function Post({ post }: Props) {
             })}
           </p>
         </div>
-        <div className="mt-10">
+        <div className="mt-10 [&_p]:mt-4">
           <PortableText
             dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
             projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID}
@@ -179,11 +177,11 @@ function Post({ post }: Props) {
       <div className="flex flex-col p-10 my-10 max-w-2xl mx-auto shadow-yellow-500 shadow space-y-2">
         <h3 className="text-4xl">Comments</h3>
         <hr className="pb-2" />
-        {post.comment.map((each) => (
-          <div key={each._id}>
+        {post.comments.map((comment) => (
+          <div key={comment._id}>
             <p>
-              <span className="text-yellow-500">{each.name}:</span>{" "}
-              {each.comment}
+              <span className="text-yellow-500">{comment.name}:</span>{" "}
+              {comment.comment}
             </p>
           </div>
         ))}
@@ -224,7 +222,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   name,
   image
 },
-'comment':*[
+'comments':*[
     _type == "comment" &&
     post._ref == ^._id &&
     approved == true],
