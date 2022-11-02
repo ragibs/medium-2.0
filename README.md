@@ -1,6 +1,6 @@
 # Medium 2.0
 
-This project was a created using Next.js, Tailwind CSS and backed by Sanity CMS. Medium 2.0 is a blogging app which includes functionilities such as
+This project was a created using Next.js, Tailwind CSS and backed by a headless CMLS called Sanity. Medium 2.0 is a blogging app which includes functionilities such as
 
 - Adding new blog posts
 - Adding new comments
