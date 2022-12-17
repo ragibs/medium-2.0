@@ -20,6 +20,7 @@ https://medium-2-beta.vercel.app/
 
 ## Screenshots
 
+
 ### Mobile
 
 ![localhost_3000_](https://user-images.githubusercontent.com/108539627/198909644-fdecb82d-a90c-4b23-9228-6ad4326eaf11.png)
